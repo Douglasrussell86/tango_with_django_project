@@ -10,6 +10,9 @@
     <div>
         absolute limbs<br />
         <strong>This project has been put together by Douglas Russell</strong><br />
+        {% if visits %}
+            <p>Visits: {{ visits }}</p>
+        {% endif %}
     </div>
     <div>
         <img src="{% static 'images/legs.jpg' %}" alt="These are the limbs" />
